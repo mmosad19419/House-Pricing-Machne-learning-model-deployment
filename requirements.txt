@@ -1,0 +1,9 @@
+matplotlib
+seaborn
+pandas
+numpy
+SciPy
+joblib
+threadpoolctl
+scikit-learn
+kaggle
