@@ -1,0 +1,92 @@
+#wholepage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10%
+}
+
+h4 {
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+h6 {
+    text-align: right;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    right: 30;
+}
+
+p {
+    text-align: center;
+    color: white
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+
+/* form css */
+.form {
+    display: block;
+    margin: auto;
+    width: 40vw;
+    height: 40vh;
+    top: 35%;
+    left: 50%;
+}
+
+.forminput {
+    margin: auto;
+    display: block;
+    width: 20vw;
+    height: 5vh;
+    border: 1px solid #727272;
+    border-radius: 0.25rem;
+    font-size: 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.forminput:focus {
+    outline: none;
+    border-color: rgb(151, 151, 151);
+    box-shadow: 2px 2px rgb(63, 63, 63), -2px -2px rgb(63, 63, 63), -2px 2px rgb(63, 63, 63), 2px -2px rgb(63, 63, 63);
+}
+
+.formbutton {
+    margin: 20px;
+    left: 5vw;
+    color: snow;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+    border-radius: 0.25rem;
+    width: 10vw;
+    height: 5vh;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formbutton:hover {
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(151, 151, 151);
+    box-shadow: 2px 2px rgb(63, 63, 63), -2px -2px rgb(63, 63, 63), -2px 2px rgb(63, 63, 63), 2px -2px rgb(63, 63, 63);
+}

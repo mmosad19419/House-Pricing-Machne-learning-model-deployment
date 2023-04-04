@@ -1,9 +1,11 @@
+Flask
+flask_session
 matplotlib
 seaborn
 pandas
 numpy
 SciPy
 joblib
-pickle
+threadpoolctl
 scikit-learn
 kaggle
