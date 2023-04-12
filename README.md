@@ -7,6 +7,7 @@ this competition challenges you to predict the final price of each home.
 - Feature engineering 
 - Advanced regression techniques [Basic Linear ReGRESSION - Ridge - Lasso - ElasticNet]
 - Web Interface and API to interact with the model
+- CI / CD pipeline using GITHUB Action
 - Model Deployment on Heroku
 
 ## Files 
