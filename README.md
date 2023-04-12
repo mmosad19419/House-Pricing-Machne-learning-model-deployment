@@ -28,4 +28,5 @@ Contain Machine Learning regression building and Evaluations
 - WebApp
 contains web app using flask and web api to interact with the model
 
--
+- Workflow
+CI / CD pipeline using Github Action
