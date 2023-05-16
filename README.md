@@ -5,27 +5,28 @@ Explore and process 6,000 data points and develop a pipeline to clean and transf
 - Feature engineering 
 - Advanced regression techniques [Basic Linear ReGRESSION - Ridge - Lasso - ElasticNet]
 - Web Interface and Restful API to interact with the model
-- CI / CD pipeline using GITHUB Action
+- CI / CD pipeline using GitHub Action
 - Model Deployment on Heroku
 
 ## Files 
-- .house_pricing
-Virtual enviroment of the project
+`.house_pricing`
+The virtual environment of the project
 
-- Data Preprocessing and Transformation for Machine Learning 
+`Data Preprocessing and Transformation for Machine Learning 
 Contain Data Cleaning and transformation for Machine learning
-output: Ready train, test, target csv files
+output: Ready train, test, target CSV files
 
-- House Pricing Prediction Model 
+`House Pricing Prediction Model` 
 Contain Machine Learning regression building and Evaluations
 
-- train.csv
-- test.csv
-- requirements.txt
-- data_description.txt
+`dataset files`
+train.csv, test.csv, and data_description.txt
 
-- WebApp
-contains web app using flask and web api to interact with the model
+`requirements.txt` project dependencies
 
-- Workflow
-CI / CD pipeline using Github Action
+
+`WebApp`
+contains a web app using Flask and web API to interact with the model
+
+`Workflow`
+CI / CD pipeline using Github Action, the build process, and model deployment to Heroku.
